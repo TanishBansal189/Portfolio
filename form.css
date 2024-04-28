@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-076.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c84e74a29cd699a10e8fe5d9cac8ed92);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    background-color: #ffffff;
+    Width:370px; 
+    height: 520px;
+    text-align: center;
+    padding: 20px;
+    margin: 2% auto 0;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: blue;
+}
+button{
+    width:100px;
+    justify-self: center;
+    cursor: pointer;
+    align-self: center;
+}
+button:hover{
+    background-color: aqua;
+}
+.input-box{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 0;
+    width: 100%;
+    border: 1px solid #9999;
+    outline: none; 
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    outline: none;
+    cursor: pointer;
+}
+hr{
+    border: 0;
+    background-color:black;
+    height: 1px;
+}
+a{
+    text-decoration: none;
+    color:aqua
+}
+#Or{
+    width: 30px;
+    margin: -19px auto 10px;
+}
+.checkbox {
+   color: black;
+   font-size: 1.2rem;
+}

@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    ---bg-color:#19376D;
+    ---nav-color:#0B2447;
+    ---text-color:#A5D7E8;
+    ---medium-color:#576CBC;
+}
+body{
+    background-color:#19376D ;
+    color:#A5D7E8;
+}
+.nav-bar{
+    width:100%;
+    background-color:#0B2447; 
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    color:#A5D7E8;
+    align-items: center;
+}
+.PORTFOLIO{
+   color:aqua ;
+   font-weight: 700;
+   font-size: 2rem;
+   text-align:center;
+   margin-left: 0;
+   width:40%;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.right a{
+    color:#A5D7E8;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.more i{
+    font-size: 1.3rem;
+    align-self: center;
+    display: none;
+}
+.right a:hover{
+    border: 2px solid white;
+}
+.more i:hover{
+    border: 2px solid white;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 24px;
+    position:relative;
+}
+.intro-text{
+    width:55vw;
+    margin-top:24px;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+}
+
+.shinnig{
+    color: aqua;
+    font-weight: 600;
+}
+#element{
+    color: aqua;
+    font-weight: 400;
+}
+main hr{
+    border: 0;
+    background-color:#576CBC ;
+    height: 1.5px;
+    margin: 40px 20px;
+}
+.links{
+    font-size: 2.5rem;
+}
+.links-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white ;
+    width: 370px;
+    border-radius: 12px;
+    margin-left: 40%;
+}
+.links-a a{
+    font-size: 2.5rem;
+    color: white;
+}
+#resume{
+  height: 35px;
+  width: 120px;
+  margin-left: 154px;
+   background-color:#0B2447 ;
+  color:#A5D7E8;
+  border-color: #192655;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#resume:hover{
+    background-color:#576CBC ;
+    color:#A5D7E8 ;
+}
+.links-a a:hover{
+    border: 2px solid black;
+}
+footer{
+    background-color:#0B2447 ;
+}
+.footer{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    align-items: center;
+}
+.footer ul{
+    list-style: none;
+}
+.footer-element{
+    margin-right: 12px;
+    color: aqua;
+    font-weight: 600;
+    width: 10%;
+    font-size: 1.5rem;
+}
+.copy-right{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.edu{
+    display: flex;
+    justify-content: space-between;
+}
+.edu-intro{
+    width: 55%;
+    margin-top:50px;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+}
+.edu-img{
+ background-image: url(mams.jpg);
+ background-repeat: no-repeat;
+ height: 300px;
+ width: 40%;
+ margin-top: 30px;
+ margin-right: 1%;
+  margin-left: 5%;
+}
+.short{
+    font-size: 1.3rem;
+     width: 1300px;
+     margin-top: 30px;
+     margin-right:10%;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skill-intro{
+    margin-top:30px;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+}
+.analysis{
+    padding: 12px;
+}
+.skill-container{
+    display: flex;
+    align-items: center;
+}
+.skill-an{
+   height: 6px;
+   border: 2px solid white;
+}
+.ninety{
+    width: 250px;
+    background-color: black;
+}
+.hundred{
+    width: 265px;
+    background-color: brown;
+}
+.fifty{
+    width: 125px;
+    background-color: red;
+}
+.fifteen{
+    width:50px;
+    background-color: violet;
+}
+.hobbies{
+    display: flex;
+}
+.hobby-intro{
+   text-align: center;
+   margin-top:30px;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.hobby-1{
+    background-color: white;
+    height: 453px;    
+    width: 400px;
+    border-radius: 12px;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.hobby-1-img{
+     background-image: url(hobby1.jpg); 
+    margin-left: 81px;
+    background-size: contain;
+    height: 199px;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+}
+.hobby-1 h1{
+    color: var(---bg-color);
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+}
+.hobby-1 p{
+    color: var(---bg-color);
+    font-size: 1.5rem;
+    text-align: center;
+}
+.hobby-1 audio{
+    margin-left: 32px;
+}
+.hobby-1 h3{
+    color: var(---nav-color);
+    font-weight: 300px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.hobby-1 a{
+    color: var(---nav-color);
+}
+.hobby-2-img{
+    background-image:url(Hobby2.png) ;
+    margin-left: 81px;
+    background-size: contain;
+    height: 199px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.hobby-1 a{
+    color: var(---nav-color);
+    font-weight: 700;
+    text-align: center;
+}
+.hobby-3-img{
+    background-image: url(hobby-3.jpg);
+  background-size: contain;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-left: 81px;
+}
+.hobby-1 button{
+    width: fit-content;
+    text-align: center;
+    align-self: center;
+    border-radius: 10px;
+    background-color: #0B2447;
+    color: aqua;
+    cursor: pointer;
+}

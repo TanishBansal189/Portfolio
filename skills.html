@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+    <div class="nav-bar">
+      <div class="PORTFOLIO">
+        Tanish Portfolio
+      </div> 
+      <div class="right">
+     <div class="home">
+      <a href="index.html"> Home </a> 
+     </div> 
+     <div class="projects">
+      <a href ="#">Projects </a>
+     </div>
+     <div class="register">
+     <a href="form.html"> Register</a>
+     </div> 
+     <div class="log-in">
+        <a href="log-in.html" >Log-in </a>
+     </div>
+     <div class="contact">
+      <a href="contact.html" >Contact us </a>
+     </div>
+     <div class="more">
+        <i class="fa-solid fa-bars"></i>
+     </div>
+    </div>
+    </div>
+    </header>
+    <main>
+     <div class="skills">
+     <div class="skill-intro">
+        <h1 class="shinnig"> My Skills </h1>
+       <p> Some coding languages I know are  </p>
+       <span id="element"></span>
+       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Html </i> .', 'CSS.','SQL','Python'],
+      typeSpeed: 50,
+    });
+  </script>
+     </div>
+     <div class="skills-img">
+     </div>
+     </div>
+     <div class="analysis">
+       <p class="shinnig">Deeply analysis of my skills: </p>
+        <div class="skill-container"> Html :<div class="skill-an ninety"></div></div>
+        <div class="skill-container">CSS :<div class="skill-an hundred"></div></div>
+        <div class="skill-container">SQL :<div class="skill-an fifty"></div></div>
+        <div class="skill-container">Python :<div class="skill-an fifteen"></div></div>
+     </div>
+    </main>
+  </body>
+  </html>
